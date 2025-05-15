@@ -33,7 +33,7 @@ print(df.describe())
 df.median(numeric_only=True)
 print (df.median)
 
-# Group by type of cancer and compute mean of numeric columns
+# Group by type of Species and compute mean of numeric columns
 grouped_means = df.groupby('Species').mean(numeric_only=True)
 print(grouped_means)
 # Observation
